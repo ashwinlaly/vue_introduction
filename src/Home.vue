@@ -3,6 +3,9 @@
         <app-Parent-Component></app-Parent-Component>
         {{title}}
         <button @click="handleClick">a</button>
+        <app-quote-component>
+            This Will be printed in Child
+        </app-quote-component>
     </div>
 </template>
 
